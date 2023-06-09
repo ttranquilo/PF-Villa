@@ -1,0 +1,29 @@
+footer {
+    margin-top: 45px;
+    background-color: #001305 !important;
+}
+
+.list-unstyled {
+    padding-bottom: 15px;
+}
+
+.info {
+    margin-top: 20px !important;
+}
+
+.bordesinfo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #ffff;
+    border-radius: 40px;
+}
+
+.mapaa {
+    border: 2px solid $color-main;
+    border-radius: 40px;
+}
+
+.footertext {
+    color: $color-main !important;
+}
+

@@ -1,0 +1,60 @@
+/* CELULARES */
+
+@media screen and (max-width: 768px) {
+
+
+    .mediacelu {
+        margin-bottom: 10px !important;
+    }
+
+    .btn {
+        &.btn-primary {
+            &.comprar {
+                margin-bottom: 5px !important;
+            }
+        }
+
+        &.btn-secondary {
+            &.vaciar {
+                margin-bottom: 5px !important;
+            }
+        }
+
+    }
+
+}
+
+
+/* TABLETS */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .btn {
+        &.btn-primary {
+            &.comprar {
+                margin-bottom: 5px !important;
+            }
+        }
+    }
+
+}
+
+
+/* PC */
+
+@media screen and (min-width: 768px) {
+
+
+    .mapaa {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .zoom-effect {
+        transition: transform 0.3s;
+    }
+
+    .zoom-effect:hover {
+        transform: scale(1.1);
+    }
+}

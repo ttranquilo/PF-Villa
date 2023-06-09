@@ -1,0 +1,237 @@
+.line-decoration {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 379px;
+    height: 3px;
+    background-color: #cbfaa5;
+    /* Cambia el color según tus preferencias */
+}
+
+.line-decorationn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: #cbfaa5;
+    /* Cambia el color según tus preferencias */
+}
+
+.latinogangtitle {
+    margin-top: 50px;
+    font-family: $font-main;
+}
+
+.banner-title {
+    color: $color-main;
+}
+
+.banner-subtitle {
+    color: $color-sec;
+}
+
+.bienvenidoss {
+    color: $color-main;
+}
+
+
+.section-title {
+    color: $color-main;
+    font-family: $font-main;
+
+    &.testimonios {
+        margin-top: 70px !important;
+    }
+
+    &.nproductos {
+        margin-top: 90px !important;
+        margin-bottom: 15px !important;
+    }
+
+}
+
+.about-us {
+    margin-top: 25px;
+}
+
+.section-description {
+    color: $color-sec;
+    font-family: $font-main;
+
+    &.separarr {
+        margin-bottom: 55px;
+    }
+
+    &.nproductoss {
+        margin-bottom: 60px !important;
+    }
+}
+
+.carousel-image {
+    max-width: 100% !important;
+    /* Ajusta el tamaño máximo */
+    height: auto !important;
+    /* Ajusta la altura automáticamente */
+}
+
+
+.product-card {
+    border: 2px solid $color-sec !important;
+
+    &.amdd {
+        border: 2px solid #ff0000 !important;
+    }
+}
+
+
+.historiaimagen {
+    border-radius: 25px !important;
+}
+.container {
+
+    &.bienvenidoss {
+        margin-top: 45px !important;
+    }
+
+    &.productosdes {
+        margin-top: 70px !important;
+    }
+
+    &.carrito {
+        margin-top: 30px !important;
+        margin-bottom: 10px !important;
+    }
+
+    &.contactanoss {
+        border: 2px solid $color-sec !important;
+        border-radius: 45px !important;
+    }
+
+}
+
+.carrousell {
+    margin-top: 55px;
+}
+
+.containerhistoria {
+    border-radius: 25px !important;
+    background: linear-gradient(to bottom, #092902f5, #000702ea);
+}
+
+.containerhistoria2 {
+    border-radius: 25px !important;
+    background-color: #ffffff;
+}
+
+.marignimagencontacto {
+    margin-top: 25px !important;
+}
+
+.enviarmensaje {
+    margin-bottom: 25px !important;
+}
+
+.tituloservicios {
+    font-family: $font-main;
+    color: $color-main;
+    padding-bottom: 20px;
+}
+
+
+.testimonial-avatar-img {
+    width: 30px;
+    /* Ajusta el tamaño de acuerdo a tus necesidades */
+    height: 30px;
+    border: 2px solid #63fa5d;
+
+    &.avatar1 {
+        margin-left: 109px;
+        margin-top: -82px;
+    }
+
+    &.avatar2 {
+        margin-left: 127px;
+        margin-top: -82px;
+    }
+
+    &.avatar3 {
+        margin-left: 138px;
+        margin-top: -82px;
+    }
+}
+
+.testimonial {
+    border: 2px solid $color-sec;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: -25px;
+    border-radius: 25px;
+    margin-bottom: 35px;
+    background-color: #ebeceaee;
+}
+
+.form-select {
+    border: 1px solid $color-sec !important;
+    border-radius: 45px !important;
+}
+
+.input-group-text {
+    border: 1px solid $color-sec !important;
+}
+
+.formulariotexto {
+    border: 1px solid $color-sec !important;
+    border-radius: 45px !important;
+}
+
+.form-control {
+    &.adjuntar {
+        border: 1px solid $color-sec;
+    }
+}
+
+.input-group {
+    border: 1px solid $color-sec !important;
+    border-radius: 7px !important;
+}
+
+
+.contacto {
+    border-radius: 45px !important;
+}
+
+.servicios {
+    border-radius: 25px !important;
+    border: 2px solid $color-main !important;
+}
+
+.imagencontactanos {
+    border-radius: 25px !important;
+    border: 2px solid $color-sec;
+}
+
+.imagenservicios {
+    border-radius: 25px !important;
+}
+
+.carritoh2 {
+    font-family: $font-main;
+    color: $color-main;
+}
+
+.lista-verde {
+    color: $color-sec
+}
+
+.amdbanner {
+    margin-top: 15px !important;
+    margin-bottom: 38px !important;
+}
+
+.nvidiabanner {
+    margin-top: 15px !important;
+    margin-bottom: 38px !important;
+}

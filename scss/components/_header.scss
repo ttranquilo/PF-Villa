@@ -1,0 +1,43 @@
+.navbar-custom {
+    background: linear-gradient(to bottom, #000000f5, #0000005d);
+    border-bottom: 3px solid $color-sec; 
+
+    .navbar-brand {
+        color: $color-sec;
+        font-weight: bold; 
+
+        &.latinogangg {
+
+            color: $color-main;
+            &:hover {
+                color: rgb(255, 255, 255) !important;
+            }
+        }
+    }
+
+    .navbar-nav {
+        .nav-link {
+            color: $color-main; 
+
+            &:hover {
+                color: #ffffff; 
+            }
+        }
+    }
+}
+
+
+.navbar-toggler-icon {
+    background-color: #ffffffe1;
+    border-radius: 13px;
+}
+
+.banner {
+    background: url('../img/main/logo.jpg') no-repeat center center;
+    background-size: cover;
+    height: 380px;
+}
+
+body {
+    background-color: #000000 !important;
+}

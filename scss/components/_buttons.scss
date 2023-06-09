@@ -1,0 +1,52 @@
+.btn-primary {
+    font-family: $font-main !important;
+    background-color: $color-main !important;
+    transition: ease-in 0.2s;
+
+    &:hover {
+        background-color: $color-hover !important;
+        color: $color-main !important;
+        transition: ease-in 0.2s;
+    }
+
+    &.amddd {
+        background-color: #ad0404 !important;
+        color: #ffff !important;
+
+        &:hover {
+            background-color: #3f0101 !important;
+            color: #f30000 !important;
+        }
+    }
+}
+
+
+
+.btn-eliminar {
+    font-family: $font-main;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 50px !important;
+    background-color: #ffff;
+    color: red;
+    transition: ease-in 0.2s;
+
+    &:hover {
+        background-color: red;
+        color: #ffff;
+        transition: ease-in 0.2s;
+    }
+}
+
+.btn-secondary {
+    font-family: $font-main;
+    background-color: #e00303;
+    color: #ffff;
+    transition: ease-in 0.3s;
+    
+    &:hover {
+        background-color: #290000;
+        color: #ff0000;
+        transition: ease-in 0.3s;
+    }
+}

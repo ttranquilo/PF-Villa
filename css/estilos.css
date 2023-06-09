@@ -1,0 +1,313 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Oswald:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #ececec; }
+  body::-webkit-scrollbar {
+    width: 3px;
+    /* Ancho de la barra de desplazamiento */ }
+  body::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    /* Color de fondo de la pista de desplazamiento */ }
+  body::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color del pulgar de la barra de desplazamiento */
+    border-radius: 4px;
+    /* Borde redondeado del pulgar */ }
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color del pulgar al pasar el cursor sobre él */ }
+
+.navbar-custom {
+  background: linear-gradient(to bottom, #000000f5, #0000005d);
+  border-bottom: 3px solid #c1fa92; }
+  .navbar-custom .navbar-brand {
+    color: #c1fa92;
+    font-weight: bold; }
+    .navbar-custom .navbar-brand.latinogangg {
+      color: #6ef500; }
+      .navbar-custom .navbar-brand.latinogangg:hover {
+        color: white !important; }
+  .navbar-custom .navbar-nav .nav-link {
+    color: #6ef500; }
+    .navbar-custom .navbar-nav .nav-link:hover {
+      color: #ffffff; }
+
+.navbar-toggler-icon {
+  background-color: #ffffffe1;
+  border-radius: 13px; }
+
+.banner {
+  background: url("../img/main/logo.jpg") no-repeat center center;
+  background-size: cover;
+  height: 380px; }
+
+body {
+  background-color: #000000 !important; }
+
+.line-decoration {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 379px;
+  height: 3px;
+  background-color: #cbfaa5;
+  /* Cambia el color según tus preferencias */ }
+
+.line-decorationn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background-color: #cbfaa5;
+  /* Cambia el color según tus preferencias */ }
+
+.latinogangtitle {
+  margin-top: 50px;
+  font-family: "Josefin Sans", sans-serif; }
+
+.banner-title {
+  color: #6ef500; }
+
+.banner-subtitle {
+  color: #c1fa92; }
+
+.bienvenidoss {
+  color: #6ef500; }
+
+.section-title {
+  color: #6ef500;
+  font-family: "Josefin Sans", sans-serif; }
+  .section-title.testimonios {
+    margin-top: 70px !important; }
+  .section-title.nproductos {
+    margin-top: 90px !important;
+    margin-bottom: 15px !important; }
+
+.about-us {
+  margin-top: 25px; }
+
+.section-description {
+  color: #c1fa92;
+  font-family: "Josefin Sans", sans-serif; }
+  .section-description.separarr {
+    margin-bottom: 55px; }
+  .section-description.nproductoss {
+    margin-bottom: 60px !important; }
+
+.carousel-image {
+  max-width: 100% !important;
+  /* Ajusta el tamaño máximo */
+  height: auto !important;
+  /* Ajusta la altura automáticamente */ }
+
+.product-card {
+  border: 2px solid #c1fa92 !important; }
+  .product-card.amdd {
+    border: 2px solid #ff0000 !important; }
+
+.historiaimagen {
+  border-radius: 25px !important; }
+
+.container.bienvenidoss {
+  margin-top: 45px !important; }
+
+.container.productosdes {
+  margin-top: 70px !important; }
+
+.container.carrito {
+  margin-top: 30px !important;
+  margin-bottom: 10px !important; }
+
+.container.contactanoss {
+  border: 2px solid #c1fa92 !important;
+  border-radius: 45px !important; }
+
+.carrousell {
+  margin-top: 55px; }
+
+.containerhistoria {
+  border-radius: 25px !important;
+  background: linear-gradient(to bottom, #092902f5, #000702ea); }
+
+.containerhistoria2 {
+  border-radius: 25px !important;
+  background-color: #ffffff; }
+
+.marignimagencontacto {
+  margin-top: 25px !important; }
+
+.enviarmensaje {
+  margin-bottom: 25px !important; }
+
+.tituloservicios {
+  font-family: "Josefin Sans", sans-serif;
+  color: #6ef500;
+  padding-bottom: 20px; }
+
+.testimonial-avatar-img {
+  width: 30px;
+  /* Ajusta el tamaño de acuerdo a tus necesidades */
+  height: 30px;
+  border: 2px solid #63fa5d; }
+  .testimonial-avatar-img.avatar1 {
+    margin-left: 109px;
+    margin-top: -82px; }
+  .testimonial-avatar-img.avatar2 {
+    margin-left: 127px;
+    margin-top: -82px; }
+  .testimonial-avatar-img.avatar3 {
+    margin-left: 138px;
+    margin-top: -82px; }
+
+.testimonial {
+  border: 2px solid #c1fa92;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: -25px;
+  border-radius: 25px;
+  margin-bottom: 35px;
+  background-color: #ebeceaee; }
+
+.form-select {
+  border: 1px solid #c1fa92 !important;
+  border-radius: 45px !important; }
+
+.input-group-text {
+  border: 1px solid #c1fa92 !important; }
+
+.formulariotexto {
+  border: 1px solid #c1fa92 !important;
+  border-radius: 45px !important; }
+
+.form-control.adjuntar {
+  border: 1px solid #c1fa92; }
+
+.input-group {
+  border: 1px solid #c1fa92 !important;
+  border-radius: 7px !important; }
+
+.contacto {
+  border-radius: 45px !important; }
+
+.servicios {
+  border-radius: 25px !important;
+  border: 2px solid #6ef500 !important; }
+
+.imagencontactanos {
+  border-radius: 25px !important;
+  border: 2px solid #c1fa92; }
+
+.imagenservicios {
+  border-radius: 25px !important; }
+
+.carritoh2 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #6ef500; }
+
+.lista-verde {
+  color: #c1fa92; }
+
+.amdbanner {
+  margin-top: 15px !important;
+  margin-bottom: 38px !important; }
+
+.nvidiabanner {
+  margin-top: 15px !important;
+  margin-bottom: 38px !important; }
+
+footer {
+  margin-top: 45px;
+  background-color: #001305 !important; }
+
+.list-unstyled {
+  padding-bottom: 15px; }
+
+.info {
+  margin-top: 20px !important; }
+
+.bordesinfo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid #ffff;
+  border-radius: 40px; }
+
+.mapaa {
+  border: 2px solid #6ef500;
+  border-radius: 40px; }
+
+.footertext {
+  color: #6ef500 !important; }
+
+/* CELULARES */
+@media screen and (max-width: 768px) {
+  .mediacelu {
+    margin-bottom: 10px !important; }
+  .btn.btn-primary.comprar {
+    margin-bottom: 5px !important; }
+  .btn.btn-secondary.vaciar {
+    margin-bottom: 5px !important; } }
+
+/* TABLETS */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .btn.btn-primary.comprar {
+    margin-bottom: 5px !important; } }
+
+/* PC */
+@media screen and (min-width: 768px) {
+  .mapaa {
+    padding-left: 15px !important;
+    padding-right: 15px !important; }
+  .zoom-effect {
+    transition: transform 0.3s; }
+  .zoom-effect:hover {
+    transform: scale(1.1); } }
+
+.btn-primary {
+  font-family: "Josefin Sans", sans-serif !important;
+  background-color: #6ef500 !important;
+  transition: ease-in 0.2s; }
+  .btn-primary:hover {
+    background-color: #196406 !important;
+    color: #6ef500 !important;
+    transition: ease-in 0.2s; }
+  .btn-primary.amddd {
+    background-color: #ad0404 !important;
+    color: #ffff !important; }
+    .btn-primary.amddd:hover {
+      background-color: #3f0101 !important;
+      color: #f30000 !important; }
+
+.btn-eliminar {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 4px;
+  margin-left: 10px;
+  border-radius: 50px !important;
+  background-color: #ffff;
+  color: red;
+  transition: ease-in 0.2s; }
+  .btn-eliminar:hover {
+    background-color: red;
+    color: #ffff;
+    transition: ease-in 0.2s; }
+
+.btn-secondary {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #e00303;
+  color: #ffff;
+  transition: ease-in 0.3s; }
+  .btn-secondary:hover {
+    background-color: #290000;
+    color: #ff0000;
+    transition: ease-in 0.3s; }

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LatinoGang - Tienda de Placas de Video</title>
+
+
+
+    <!-- Incluyendo estilos personalizados -->
+
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <!-- Incluyendo Js -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+
+    <header class="banner">
+
+
+
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+            <div class="container">
+                <a class="navbar-brand me-auto latinogangg" href="#">LatinoGang</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/reparaciones.html">Reparaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/acercade.html">Acerca de</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="line-decoration"></div>
+
+
+
+
+    </header>
+
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 tituloservicios">Nuestros Servicios</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 servicios zoom-effect">
+                        <img src="../img/Main/reparacionplaca.jpg"
+                            class="card-img-top img-fluid h-75 w-100 imagenservicios" alt="Servicio 1">
+                        <div class="card-body">
+                            <h5 class="card-title titulorepa">Limpieza de Placas</h5>
+                            <p class="card-text descirepa">Realizamos una exhaustiva limpieza de tu placa de video para
+                                eliminar
+                                el polvo y mejorar su rendimiento.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div>
+                        <div class="card h-100 servicios zoom-effect">
+                            <img src="../img/Main/limpieza.png"
+                                class="card-img-top img-fluid h-75 w-100 imagenservicios" alt="Servicio 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Reparación de Ventiladores</h5>
+                                <p class="card-text">Reemplazamos o reparamos los ventiladores dañados de tu placa de
+                                    video
+                                    para evitar problemas de sobrecalentamiento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 servicios zoom-effect">
+                        <img src="../img/Main/drivers.png" class="card-img-top img-fluid h-75 w-100 imagenservicios"
+                            alt="Servicio 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Actualización de Controladores</h5>
+                            <p class="card-text">Actualizamos los controladores de tu placa de video para asegurar un
+                                óptimo rendimiento y compatibilidad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="bg-light py-5 w-75 d-flex justify-content-center mx-auto contacto">
+        <div class="container">
+            <h2 class="text-center mb-4">Contáctanos</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label d-flex justify-content-center mx-auto">Nombre y
+                                Apellido</label>
+                            <input type="text"
+                                class="form-control d-flex justify-content-center mx-auto w-50 formulariotexto"
+                                id="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label d-flex justify-content-center mx-auto">Email</label>
+                            <input type="mail"
+                                class="form-control d-flex justify-content-center mx-auto w-75 formulariotexto"
+                                id="text" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label d-flex justify-content-center mx-auto">Numero De
+                                Telefono</label>
+                            <div class="input-group">
+                                <span class="input-group-text">+54</span>
+                                <input type="text" id="telefono" name="telefono"
+                                    class="form-control d-flex justify-content-center mx-auto w-25" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label d-flex justify-content-center mx-auto">Describi cual
+                                es tu Problema</label>
+                            <textarea class="form-control formulariotexto" id="mensaje" rows="4" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="opcion" class="form-label d-flex justify-content-center mx-auto">Elige Tu Placa
+                                De Videos:</label>
+                            <select id="opcion" name="opcion" class="form-select d-flex justify-content-center mx-auto">
+                                <option class="d-flex justify-content-center mx-auto" value="opcion1">GeForce RTX 3090
+                                </option>
+                                <option class="d-flex justify-content-center mx-auto" value="opcion2">RTX 3080 Ti
+                                </option>
+                                <option class="d-flex justify-content-center mx-auto" value="opcion3">RTX 3080</option>
+                                <option class="d-flex justify-content-center mx-auto" value="opcion4">RTX 3070 Ti
+                                </option>
+                                <option class="d-flex justify-content-center mx-auto" value="opcion5">GeForce RTX 3070
+                                </option>
+                                <option class="d-flex justify-content-center mx-auto" value="opcion6">GeForce RTX 3060
+                                    Ti</option>
+                                <option class="d-flex justify-content-center mx-auto" value="opcion7">GeForce RTX 3060
+                                </option>
+                                <option class="d-flex justify-content-center mx-auto" value="opcion8">Radeon RX 6800 XT
+                                </option>
+                                <option class="d-flex justify-content-center mx-auto" value="opcion9">Radeon RX 6800
+                                </option>
+                                <option class="d-flex justify-content-center mx-auto" value="opcion10">Radeon RX 6700 XT
+                                </option>
+                                <option class="d-flex justify-content-center mx-auto" value="opcion11">Radeon RX 5700 XT
+                                </option>
+                                <option class="d-flex justify-content-center mx-auto" value="opcion12">Radeon RX 5700
+                                </option>
+                                <option class="d-flex justify-content-center mx-auto" value="opcion13">Radeon RX 5600 XT
+                                </option>
+                                <option class="d-flex justify-content-center mx-auto" value="opcion14">Radeon RX 5500 XT
+                                </option>
+                                <option class="d-flex justify-content-center mx-auto" value="opcion15">Radeon RX 5500
+                                </option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="adjuntarImagen"
+                                class="form-label d-flex justify-content-center mx-auto">Adjuntar Imagen</label>
+                            <div class="input-group">
+                                <input type="file" id="adjuntarImagen" name="adjuntarImagen"
+                                    class="form-control adjuntar" accept=".jpeg, .jpg, .png">
+                            </div>
+                            <small id="imagenElegida" class="form-text text-muted">No has elegido imagen</small>
+                        </div>
+                        <button type="submit"
+                            class="btn btn-primary enviarmensaje d-flex justify-content-center mx-auto">Enviar
+                            Formulario</button>
+
+                    </form>
+                </div>
+                <div class="col-md-6 text-center contactanoss">
+                    <div class="container contactanoss">
+                        <h4>Información de Contacto</h4>
+                        <p><i class="bi bi-envelope-fill me-2"></i>Email: latinogangtienda@gmail.com</p>
+                        <p><i class="bi bi-telephone-fill me-2"></i>Teléfono: (+54) 11-2369-2111</p>
+                        <p><i class="bi bi-geo-alt-fill me-2"></i>Dirección: Boatti 73, Moron, Buenos Aires</p>
+                        <div class="d-flex justify-content-center mb-4">
+                            <img src="../img/Main/contactanos.jpg" alt="Imagen"
+                                class="img-fluid imagencontactanos w-75 h-50">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer class="footer text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 text-center info">
+                    <h5>Información de contacto</h5>
+                    <div class="bordesinfo">
+                        <h5>Teléfono</h5>
+                        <p>(+54) 11-2369-2111</p>
+                        <h5>Email</h5>
+                        <p>latinogangtienda@gmail.com</p>
+                        <h5>Dirección</h5>
+                        <p>Boatti 73, Moron, Buenos Aires</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center info">
+                    <h5>Donde Nos Encontramos</h5>
+                    <div class="bordesinfo">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4641.809940375083!2d-58.62268944635945!3d-34.648255269687496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1686280540236!5m2!1ses!2sar"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" class="img-fluid mapaa"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center info">
+                    <h5 class="text-center">Enlaces útiles</h5>
+                    <div class="bordesinfo">
+                        <ul class="list-unstyled footertext">
+                            <li class="mb-4"><a href="./pages/productos.html">Productos</a></li>
+                            <li class="mb-4"><a href="./pages/reparaciones.html">Reparaciones</a></li>
+                            <li class="mb-4"><a href="#">Contacto</a></li>
+                            <li><a href="#">Acerca De</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col text-center">
+                        <p>&copy; 2023 LatinoGang. Todos los derechos reservados.</p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/reparaciones.js"></script>
+</body>
+
+</html>
