@@ -89,6 +89,7 @@
 .historiaimagen {
     border-radius: 25px !important;
 }
+
 .container {
 
     &.bienvenidoss {
@@ -188,6 +189,8 @@
 }
 
 .form-control {
+
+    border: 2px solid $color-main !important;
     &.adjuntar {
         border: 1px solid $color-sec;
     }
@@ -208,6 +211,15 @@
     border: 2px solid $color-main !important;
 }
 
+.contacta {
+    color: $color-main;
+}
+
+
+.curriculumoport {
+    border-radius: 25px !important;
+    border: 2px solid $color-main !important;
+}
 .imagencontactanos {
     border-radius: 25px !important;
     border: 2px solid $color-sec;
@@ -234,4 +246,21 @@
 .nvidiabanner {
     margin-top: 15px !important;
     margin-bottom: 38px !important;
+}
+
+.contactoo {
+    color: $color-main;
+}
+
+.curriculumm {
+    border: 2px solid $color-sec;
+    border-radius: 25px;
+}
+
+.tucurri {
+    margin-top: 15px !important;
+}
+
+.colorcontacto {
+    color: $color-sec;
 }

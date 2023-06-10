@@ -191,8 +191,10 @@ body {
   border: 1px solid #c1fa92 !important;
   border-radius: 45px !important; }
 
-.form-control.adjuntar {
-  border: 1px solid #c1fa92; }
+.form-control {
+  border: 2px solid #6ef500 !important; }
+  .form-control.adjuntar {
+    border: 1px solid #c1fa92; }
 
 .input-group {
   border: 1px solid #c1fa92 !important;
@@ -202,6 +204,13 @@ body {
   border-radius: 45px !important; }
 
 .servicios {
+  border-radius: 25px !important;
+  border: 2px solid #6ef500 !important; }
+
+.contacta {
+  color: #6ef500; }
+
+.curriculumoport {
   border-radius: 25px !important;
   border: 2px solid #6ef500 !important; }
 
@@ -226,6 +235,19 @@ body {
 .nvidiabanner {
   margin-top: 15px !important;
   margin-bottom: 38px !important; }
+
+.contactoo {
+  color: #6ef500; }
+
+.curriculumm {
+  border: 2px solid #c1fa92;
+  border-radius: 25px; }
+
+.tucurri {
+  margin-top: 15px !important; }
+
+.colorcontacto {
+  color: #c1fa92; }
 
 footer {
   margin-top: 45px;
@@ -257,7 +279,9 @@ footer {
   .btn.btn-primary.comprar {
     margin-bottom: 5px !important; }
   .btn.btn-secondary.vaciar {
-    margin-bottom: 5px !important; } }
+    margin-bottom: 5px !important; }
+  .mediaceel {
+    margin-bottom: 15px !important; } }
 
 /* TABLETS */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -272,7 +296,9 @@ footer {
   .zoom-effect {
     transition: transform 0.3s; }
   .zoom-effect:hover {
-    transform: scale(1.1); } }
+    transform: scale(1.1); }
+  .curriculumm {
+    padding-left: 15px !important; } }
 
 .btn-primary {
   font-family: "Josefin Sans", sans-serif !important;
@@ -288,6 +314,26 @@ footer {
     .btn-primary.amddd:hover {
       background-color: #3f0101 !important;
       color: #f30000 !important; }
+  .btn-primary.facebook {
+    background-color: #0415ad !important; }
+    .btn-primary.facebook:hover {
+      background-color: #01052c !important;
+      color: #ffff !important; }
+  .btn-primary.instagram {
+    background-color: #ffa703 !important; }
+    .btn-primary.instagram:hover {
+      background-color: #5c3c00 !important;
+      color: #ffff !important; }
+  .btn-primary.twitter {
+    background-color: #0097fc !important; }
+    .btn-primary.twitter:hover {
+      background-color: #003c64 !important;
+      color: #ffff !important; }
+  .btn-primary.youtube {
+    background-color: #ff0000 !important; }
+    .btn-primary.youtube:hover {
+      background-color: #440000 !important;
+      color: #ffff !important; }
 
 .btn-eliminar {
   font-family: "Josefin Sans", sans-serif;

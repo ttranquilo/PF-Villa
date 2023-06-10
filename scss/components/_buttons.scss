@@ -18,6 +18,39 @@
             color: #f30000 !important;
         }
     }
+
+    &.facebook {
+        background-color: #0415ad !important;
+        
+        &:hover {
+            background-color: #01052c !important;
+            color: #ffff !important;
+        }
+    }
+    &.instagram {
+        background-color: #ffa703 !important;
+        
+        &:hover {
+            background-color: #5c3c00 !important;
+            color: #ffff !important;
+        }
+    }
+    &.twitter {
+        background-color: #0097fc !important;
+        
+        &:hover {
+            background-color: #003c64 !important;
+            color: #ffff !important;
+        }
+    }
+    &.youtube {
+        background-color: #ff0000 !important;
+        
+        &:hover {
+            background-color: #440000 !important;
+            color: #ffff !important;
+        }
+    }
 }
 
 
@@ -43,7 +76,7 @@
     background-color: #e00303;
     color: #ffff;
     transition: ease-in 0.3s;
-    
+
     &:hover {
         background-color: #290000;
         color: #ff0000;
