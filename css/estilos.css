@@ -27,7 +27,7 @@ body {
     /* Color del pulgar al pasar el cursor sobre él */ }
 
 .navbar-custom {
-  background: linear-gradient(to bottom, #000000f5, #0000005d);
+  background: linear-gradient(to bottom, #000000f5, #000000a2);
   border-bottom: 3px solid #c1fa92; }
   .navbar-custom .navbar-brand {
     color: #c1fa92;
@@ -50,6 +50,10 @@ body {
   background-size: cover;
   height: 380px; }
 
+
+.fas {
+  color: #ffff !important;
+}
 body {
   background-color: #000000 !important; }
 

@@ -1,5 +1,5 @@
 .navbar-custom {
-    background: linear-gradient(to bottom, #000000f5, #0000005d);
+    background: linear-gradient(to bottom, #000000f5, #000000a2);
     border-bottom: 3px solid $color-sec; 
 
     .navbar-brand {
@@ -41,3 +41,7 @@
 body {
     background-color: #000000 !important;
 }
+
+.fas {
+    color: #ffff !important;
+  }
